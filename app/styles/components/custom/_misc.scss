@@ -1,0 +1,80 @@
+	/*misc*/
+
+	section {
+		padding: 60px 0;
+	}
+
+	h1, h2, h3, h4, h5, p {
+		font-weight: 200;
+		color: $rich-black;
+	}
+
+	h5 {
+		line-height: 2.3rem;
+
+		&.alt {
+			color: white;
+		}
+	}
+
+	.title {
+		color: $gold;
+		text-transform: uppercase;
+		margin: 30px 0;
+
+		&.alt {
+			color: white;
+		}
+	}
+	
+	.image-container {
+
+		img {
+			margin-top: 0.5rem;
+			border-radius: 2px;
+			box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+			&.alt {
+				box-shadow: none;
+			}
+		}
+	}
+
+	.overview {
+		padding-top: 0;
+	}
+
+	.card-gold {
+		min-height: 300px;
+	}
+
+	.different {
+		background: $rich-black;
+
+		h4 {
+			color: $gold;
+		}
+
+		h5 {
+			color: white;
+		}
+	}
+
+	.sign-off {
+		background: $gold;
+
+		h4, h5 {
+			color: white;
+		}
+	}
+
+	footer.wea-footer {
+		margin-top: 0;
+		padding-top: 0;
+		background: $rich-black;
+
+		p {
+			margin-top: 0;
+			color: white;
+		}
+	}

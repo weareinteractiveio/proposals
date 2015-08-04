@@ -1,0 +1,33 @@
+	/*Hero*/
+
+	.hero {
+		height: 500px;
+		background: url(images/hero-bg.jpg) no-repeat center center fixed;
+		background-size: cover;
+
+		h1 {
+			color: white;
+			font-weight: 200;
+			text-transform: uppercase;
+
+			span {
+				font-weight: 500;
+				color: $gold;
+			}
+		}
+
+		p {
+			color: white;
+			font-weight: 200;
+
+			span {
+				font-weight: 500;
+				// color: $gold;
+				// text-transform: uppercase;
+			}
+		}
+	}
+
+	.work {
+		background: $gold;
+	}
